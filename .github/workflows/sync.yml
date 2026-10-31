@@ -1,0 +1,25 @@
+name: Sync upstream list
+
+on:
+  schedule:
+    - cron: "17 * * * *" # hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch latest list
+        run: curl -fsSL https://raw.githubusercontent.com/ooooorion/Luna-s-Decompilation-List/main/README.md -o list.md
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- list.md; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add list.md
+          git commit -m "Sync list from upstream"
+          git push

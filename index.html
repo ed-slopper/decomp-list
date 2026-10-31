@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Decomp List</title>
+<meta name="description" content="Every known video game decompilation and recompilation, in one searchable list. Auto-synced from Luna's Decompilation List.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23007aff'/><path d='M22 22l-10 10 10 10M42 22l10 10-10 10M36 16l-8 32' stroke='white' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar" id="bar">
+  <div class="bar-inner">
+    <div class="bar-title" aria-hidden="true">Decomp List</div>
+    <label class="search">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.75" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Search games, authors, platforms" autocomplete="off" spellcheck="false" aria-label="Search">
+      <button class="clear" id="clear" type="button" aria-label="Clear search" hidden>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="currentColor"/><path d="M7 7l6 6M13 7l-6 6" stroke="var(--bg-grouped)" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </label>
+    <div class="segmented" role="tablist" aria-label="Type" id="seg">
+      <span class="seg-thumb" id="thumb"></span>
+      <button role="tab" data-type="all" aria-selected="true">All</button>
+      <button role="tab" data-type="Decompilation" aria-selected="false">Decomps</button>
+      <button role="tab" data-type="Recompilation" aria-selected="false">Recomps</button>
+    </div>
+  </div>
+  <nav class="chips" id="chips" aria-label="Platforms"></nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Decompilations</h1>
+    <p class="sub" id="summary">Loading the list…</p>
+  </section>
+  <div id="list" aria-live="polite"></div>
+  <p class="empty" id="empty" hidden>No matches. Try a different search.</p>
+</main>
+
+<footer>
+  <p>Data from <a href="https://github.com/ooooorion/Luna-s-Decompilation-List">Luna's Decompilation List</a> by ooooorion, synced automatically.<br>
+  Know one that's missing? <a href="https://github.com/ooooorion/Luna-s-Decompilation-List/issues">Suggest it upstream</a>.</p>
+  <p class="synced" id="synced"></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 # LUNA'S DECOMPILATION LIST
-This is a list of videogame decomps, recomps & static recomps I could find.
+This is a list of videogame decomps I could find. Static recomps will be shared/maintained at a later date.
 
 -----
 ### NOTES
@@ -7,19 +7,29 @@ For accessibility, they are split into the following categories:
 * Decomps/Recomps (if they are a decompilation or a recompilation
 * Console (what console/hardware they are based on)
 * Human-made/AI-made (if the decomp/recomp is made by a human, or by AI. A decomp must be atleast 50% human-contributed to be considered human-made)
+<br>
 Naming scheme: [GAME NAME] - [GITHUB AUTHOR]
+<br>
 If I was wrong on something, feel free to make an issue/pull request!
+
 -----
-**TOTAL SO FAR: 204 (201 decomps/3 recomps, 200 human-made/4 ai-made, across ~26 platforms**<br>
+**TOTAL SO FAR: 255 (221 human-made/34 ai-made, across ~26 platforms**<br>
 <br>
 **INSPIRED BY [SamidyFR's "Game Decompilations" repository](https://github.com/SamidyFR/Game-Decompilations)! SHOUTOUT TO THEM**
+<br>
 **BE SURE TO CHECK OUT ED-SLOPPER'S CUSTOM UI FOR THIS; IT'S AWESOME! https://ed-slopper.github.io/decomp-list/**
 -----
-# DECOMPILATIONS
-
 ## Arcade
 ### Human-Made
+* [Dig Dug - Suspence00](https://github.com/Suspence00/digdug-decomp)
+* [Mario Kart Arcade GP2 - naari3](https://github.com/naari3/mkgp2-decomp)
 * [Sonic the Fighters - biggestsonicfan](https://github.com/biggestsonicfan/stfdecomp)
+### AI-Made
+* [OutRunners - cheviman](https://github.com/cheviman/outrunners-decomp)
+* [Power Drift - indieindie7](https://github.com/indieindie7/powerdrift-decomp)
+* [Pump It Up Exceed - bmbelo87](https://github.com/bmbelo87/decomp-it-up-the-exceed)
+* [SegaSonic the Hedgehog - cheviman](https://github.com/cheviman/segasonic-decomp)
+* [Tetris: The Absolute - The Grand Master 2 Plus - masonc15](https://github.com/masonc15/tgm2p-decomp)
 
 ## Microsoft Windows
 ### Human-Made
@@ -48,13 +58,32 @@ If I was wrong on something, feel free to make an issue/pull request!
 
 ## Microsoft XBOX
 ### Human-Made
+* [Azurik: Rise of Perathia - Azurik-Modding-Hub](https://github.com/Azurik-Modding-Hub/Azurik-Decomp)
+* [Blinx: The Time Sweeper - Wh1tec4t3](https://github.com/Wh1tec4t3/BlinxDecomp)
+* [Fatal Frame II: Director's Cut](https://github.com/smpduong/fatal-frame-ii-dc-decomp)
 * [Halo 1 - halo-re](https://github.com/halo-re/halo)
 * [Halo 1 - punpckhdq](https://github.com/punpckhdq/halo)
+* [Teen Titans - Cwf1997](https://github.com/Cwf1997/teentitans)
+* [Tork: The Prehistoric Punk - Dynamon91](https://github.com/Dynamon91/tork-the-prehistoric-punk-Decomp)
+### AI-Made
+* [Halo 2 - BirchWoodGod](https://github.com/BirchWoodGod/halo2-decomp)
+* [Robotech: Battlecry - cheviman](https://github.com/cheviman/robotech-decomp) 
+* [Stargate SG-1: The Alliance - jkoehler11](https://github.com/jkoehler11/stargate-alliance-decomp)
+* [Street Fighter III: 3rd Strike (OGXB) - Manya3084](https://github.com/Manya3084/3s-decomp-ogxb)
 
 ## Microsoft XBOX 360
 ### Human-Made
 * [Dance Central 3 - rjkiv](https://github.com/rjkiv/dc3-decomp)
+* [Kinect Sports - SebaaMG](https://github.com/SebaaMG/Kinect-Sports-Decomp)
 * [Minecraft: Legacy Console Edition - LCERD](https://github.com/LCERD/Minecraft-Xbox-360-Decompilation)
+* [Phantasy Star Universe - DanielCoffey1](https://github.com/DanielCoffey1/psu-decomp)
+* [The Simpsons Game - SplaatSites](https://github.com/SplaatSites/the-simpsons-game)
+### AI-Made
+* [Burger King's Big Bumpin' - dpermuy](https://github.com/dpermuy/big-burger-bumpin-king)
+* [College Hoops 2K8 - kima1810](https://github.com/kima1810/CH2K8-decomp)
+* [Project Haggar - kirklandsig](https://github.com/kirklandsig/halo-mega-bloks-decompiled)
+* [Quake 4 - cyberheater](https://github.com/cyberheater/Xbox-360-Quake4-decomp)
+* [Rock Band 3 - freeqaz](https://github.com/freeqaz/rb3-xenon)
 
 ## Microsoft XBOX One
 ### Human-Made
@@ -62,14 +91,27 @@ If I was wrong on something, feel free to make an issue/pull request!
 
 ## Nintendo 3DS
 ### Human-Made
+* [Animal Crossing: New Leaf - RedShyGuy](https://github.com/RedShyGuy/acnl-decomp)
 * [Legend of Zelda, The: Ocarina of Time 3D - zeldaret](https://github.com/zeldaret/oot3d)
+* [Monster Hunter 4 Ultimate - mhvuze](https://github.com/mhvuze/mh4u-decomp)
 * [Super Mario 3D Land - 3dsdecomp](https://github.com/3dsdecomp/RedPepper)
+* [Tomodachi Life - CalebVernon](https://github.com/CalebVernon/TL-Decomp)
+* [Tomodachi Life - tomodecomp](https://github.com/tomodecomp/tomodachi-life)
+### AI-Made
+* [Kanken Training 2 - mschienbien](https://github.com/mschienbein/kanken-training-2-decomp)
+* [Legend of Zelda, The: A Link Between Worlds - 7akeem0](https://github.com/7akeem0/albw-decomp-ai)
+* [Legend of Zelda, The: Majora's Mask 3D - SomeoneIsWorking](https://github.com/SomeoneIsWorking/mm3d-decomp)
+* [Legend of Zelda, The: Ocarina of Time 3D - SomeoneIsWorking](https://github.com/SomeoneIsWorking/oot3d-decomp)
 
 ## Nintendo 64
 ### Human-Made
+* [Animal Forest (N64) - BluRosie](https://github.com/BluRosie/doubutsu-no-mori)
 * [Animal Forest (N64) - zeldaret](https://github.com/zeldaret/af)
 * [Banjo-Kazooie - n64decomp](https://github.com/n64decomp/banjo-kazooie)
 * [Banjo-Tooie - Mr-Wiseguy](https://github.com/Mr-Wiseguy/banjo-tooie)
+* [Battletanx - AbuN64](https://github.com/AbuN64/battletanx-decomp)
+* [Beetle Adventure Racing! - bryankruman](https://github.com/bryankruman/BeetleDecomp/)
+* [Beetle Adventure Racing! - synamaxmusic](https://github.com/synamaxmusic/bar-decomp)
 * [Blast Corps - retroplastic](https://github.com/retroplastic/blastcorps)
 * [Body Harvest - jaytheham](https://github.com/jaytheham/body-harvest-decompilation)
 * [Bomberman Hero - Bomberhackers](https://github.com/Bomberhackers/bmhero)
@@ -82,6 +124,7 @@ If I was wrong on something, feel free to make an issue/pull request!
 * [Gex 64 - MatBourgon](https://github.com/MatBourgon/Gex64Decomp)
 * [Goldeneye 007 - n64decomp](https://github.com/n64decomp/007)
 * [Harvest Moon 64 - harvestwhisperer](https://github.com/harvestwhisperer/hm64-decomp)
+* [ISS 2000 - Icegod895](https://github.com/Icegod895/ISS2000Decomp)
 * [Kirby 64 - Kirby64Ret](https://github.com/Kirby64Ret/kirby64)
 * [Legend of Zelda, The: Majora's Mask - n64decomp](https://github.com/n64decomp/majora)
 * [Legend of Zelda, The: Majora's Mask - zeldaret](https://github.com/zeldaret/mm)
@@ -92,6 +135,7 @@ If I was wrong on something, feel free to make an issue/pull request!
 * [Mario Party 2 - mariopartyrd](https://github.com/mariopartyrd/marioparty2)
 * [Mario Party 3 - mariopartyrd](https://github.com/mariopartyrd/marioparty3)
 * [Mischief Makers - Drahsid](https://github.com/Drahsid/mischief-makers)
+* [NBA Live 2000 - Rainchus](https://github.com/Rainchus/NbaLive2000-N64-Decomp)
 * [Paper Mario - pmret](https://github.com/pmret/papermario)
 * [Paper Mario - RetroReversing](https://github.com/RetroReversing/PaperMarioDecompilation)
 * [Perfect Dark - n64decomp](https://github.com/n64decomp/perfect_dark)
@@ -99,14 +143,28 @@ If I was wrong on something, feel free to make an issue/pull request!
 * [Pokémon Stadium - pret](https://github.com/pret/pokestadium)
 * [Pokémon Stadium 2 - pret](https://github.com/pret/pokestadiumgs)
 * [Quest 64 - Mallos31](https://github.com/Mallos31/Quest)
+* [Shiren the Wanderer 2 - mschienbien](https://github.com/mschienbein/shiren2-decomp)
 * [Snowboard Kids - cdlewis](https://github.com/cdlewis/snowboardkids-decomp)
+* [Space Station Silicon Valley - mkst](https://github.com/mkst/sssv)
 * [Starfox 64 - sonicdcer](https://github.com/sonicdcer/sf64)
 * [Super Mario 64 - n64decomp](https://github.com/n64decomp/sm64)
 * [Super Smash Bros. - VetriTheRetri](https://github.com/VetriTheRetri/ssb-decomp-re)
+* [Turok: Rage Wars - AbuN64](https://github.com/AbuN64/ragewars-decomp)
 * [Wave Race 64 - LLONSIT](https://github.com/LLONSIT/Wave-Race-64)
+* [Wayne Gretzky Hockey - Rainchus](https://github.com/Rainchus/WayneGretzky3dHockey)
 * [Yoshi's Story - decompals](https://github.com/decompals/yoshis-story)
 ### AI-Made
+* [Conker's Bad Fur Day - DevOldSchool](https://github.com/DevOldSchool/conkers-bfd-decomp)
+* [Hey You, Pikachu! - ornata](https://github.com/ornata/hey-you-pikachu-decomp)
+* [Hybrid Heaven - ogdanimal](https://github.com/ogdanimal/HybridHeaven-Decomp)
+* [Monopoly - IvanOrtega123](https://github.com/IvanOrtega123/Monopoly-N64-Decomp/)
+* [Neon Genesis Evangelion - thebardockgames](https://github.com/thebardockgames/EVA-Decomp)
+* [San Francisco Rush 2049 - RemakerGamee](https://github.com/RemakerGamee/SFRush2049-decomp)
 * [Snowboard Kids 2 - cdlewis](https://github.com/cdlewis/snowboardkids2-decomp)
+* [Super Bowling 64 - CalenCyr](https://github.com/CalenCyr/superbowling64-decomp)
+* [Turok: Dinosaur Hunter - RetroReversing](https://github.com/RetroReversing/turok-decomp)
+* [Turok: Rage Wars - JohnSams165](https://github.com/JohnSams165/Turok-Rage-Wars-Decomp)
+* [Turok 2: Seeds of Evil - mgrz18](https://github.com/mgrz18/turok2-decomp)
 
 ## Nintendo DS
 ### Human-Made
@@ -149,6 +207,8 @@ If I was wrong on something, feel free to make an issue/pull request!
 * [Super Mario Strikers - yannicksuter](https://github.com/yannicksuter/smstrikers-decomp)
 * [Super Mario Sunshine - doldecomp](https://github.com/doldecomp/sms)
 * [Super Smash Bros. Melee - doldecomp](https://github.com/doldecomp/melee)
+### AI-Made
+* [San Francisco Rush 2049 - cabi24](https://github.com/cabi24/SFRush2049-mat3-decomp)
 
 ## Nintendo GB/GBC
 ### Human-Made
@@ -270,19 +330,14 @@ If I was wrong on something, feel free to make an issue/pull request!
 * [PSX/PSP/Saturn - Castlevania: Symphony of the Night - Xeeynamo](https://github.com/Xeeynamo/sotn-decomp)
 * [Windows Phone 7 - Sonic 4 Episode 1 (Windows Phone 7) - tge-was-taken](https://github.com/tge-was-taken/Sonic4Ep1-WindowsPhone-Decompilation)
 ### Multiple Games
+* [1945 I & II - YEperik](https://github.com/YEperik/1945-Decomp)
 * [Angry Birds (OG/Rio/Seasons/SW/SWII) - jooapa](https://github.com/jooapa/Angry_Birds_Decompilation)
 * [Golden Sun: The Broken Seal & The Lost Age - PascalPixel](https://github.com/PascalPixel/alchemy)
+* [Shin Megami Tensei IV & IV: Apocalypse - Megami-Decomps](https://github.com/Megami-Decomps/smt4-decomp)
 * [Sonic Advance 1 & 2 - SAT-R](https://github.com/SAT-R/sa2)
 * [Various SCUMM games - EricOakford](https://github.com/EricOakford/SCUMM-Decompilation-Archive)
 * [Various Sierra SCI games - EricOakford](https://github.com/EricOakford/SCI-Decompilation-Archive)
 ### AI-Made
+* [AfterShock's OGXB Titles](https://github.com/desukuran/aftershock-decomp)
+* [Splatterhouse 1, 2 & 3 - indieindie7](https://github.com/indieindie7/splatterhouse-decomp)
 * [Various Namco System 22 games - spacestate1](https://github.com/spacestate1/namco22-decompile)
------
-# RECOMPILATIONS/REIMPLEMENTATIONS
-## Microsoft Windows
-### Human-Made
-* [Battlefield 2 & 2142 - kiwidoggie](https://github.com/kiwidoggie/breadflowerdos)
-## Sony PlayStation 1
-### Human-Made
-* [Oddworld: Abe's Exoddus & Abe's Oddysee](https://github.com/AliveTeam/alive_reversing)
-* [Yu-Gi-Oh! Forbidden Memories - Unchiga](https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled)
